@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgba(52,61,70,0.7);
+    color: #fff;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.footer > h1 {
+    font-size: 3em;
+}
+
+.details {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.details > span {
+    padding-right: 8%;
+    font-size: 1.5em;
+}
+
+i {
+    padding-right: 0.5%;
+}
+
+@media screen and (max-width: 768px) {
+    .footer > h1 {
+        font-size: 2em;
+    }
+
+    .details > span {
+        padding-right: 5%;
+        font-size: 1em;
+    }
+}
